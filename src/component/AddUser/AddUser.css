@@ -1,0 +1,48 @@
+.form-group {
+  @apply flex flex-col relative mb-5;
+}
+.image_upload {
+  @apply rounded-full w-16 h-16 bg-gray-200 flex items-center justify-center cursor-pointer;
+}
+.image_upload.error {
+  @apply border-2 border-red-400;
+}
+
+#UserAdd_Container.Active {
+  @apply -translate-x-0 transition duration-500;
+}
+.form-group input {
+  @apply focus:outline-none  mt-2 p-2 rounded-md border border-gray-400;
+}
+.form-group small {
+  @apply mt-2 text-red-600;
+}
+.form-group.success small {
+  @apply mt-2 text-red-600 mb-1;
+}
+.form-group.success input {
+  @apply border-2 border-green-400;
+}
+
+.form-group.error input {
+  @apply border-2 border-red-400;
+}
+
+.form-group .icon {
+  @apply hidden absolute top-10 right-2 text-xl;
+}
+.form-group.error .icon_error {
+  @apply block text-red-400;
+}
+
+.form-group.success .icon_success {
+  @apply block text-green-400;
+}
+
+#UserAdd_Container {
+  @apply fixed top-0 left-0 bottom-0  w-10/12 md:w-4/12 -translate-x-full transition duration-500;
+}
+
+.FormStyle {
+  @apply flex flex-col justify-center items-center;
+}

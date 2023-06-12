@@ -1,0 +1,7 @@
+.List_Pagination {
+  @apply max-w-5xl mx-auto mt-20 flex space-x-2 items-center justify-center;
+}
+
+.PageLink {
+  @apply text-xl bg-blue-600 px-3 py-2 text-white rounded-md;
+}

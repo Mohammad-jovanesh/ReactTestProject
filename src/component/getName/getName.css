@@ -1,0 +1,11 @@
+.form-g-Name {
+  @apply flex flex-col w-full relative;
+}
+
+.form-g-Name.errorName label {
+  @apply block;
+}
+
+.form-g-Name.errorName #username {
+  @apply border-2 border-red-700;
+}

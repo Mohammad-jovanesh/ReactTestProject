@@ -1,0 +1,11 @@
+header {
+  @apply w-full  py-4 flex flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 sm:items-center;
+}
+
+#header_name {
+  @apply text-center text-xl sm:text-left capitalize font-semibold;
+}
+
+#ContainerCard {
+  @apply mt-10 md:mt-32 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5  md:gap-x-4 md:gap-y-14;
+}
